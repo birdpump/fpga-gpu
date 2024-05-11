@@ -1,5 +1,5 @@
 Analysis & Synthesis report for getting-started
-Fri May 10 21:28:47 2024
+Fri May 10 21:58:48 2024
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -51,13 +51,13 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri May 10 21:28:47 2024          ;
+; Analysis & Synthesis Status        ; Successful - Fri May 10 21:58:48 2024          ;
 ; Quartus Prime Version              ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                      ; getting-started                                ;
 ; Top-level Entity Name              ; getting-started                                ;
 ; Family                             ; Cyclone IV GX                                  ;
-; Total logic elements               ; 150                                            ;
-;     Total combinational functions  ; 142                                            ;
+; Total logic elements               ; 140                                            ;
+;     Total combinational functions  ; 132                                            ;
 ;     Dedicated logic registers      ; 79                                             ;
 ; Total registers                    ; 79                                             ;
 ; Total pins                         ; 30                                             ;
@@ -175,28 +175,28 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                  ;
-+----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                        ; Library ;
-+----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------+---------+
-; getting-started.v                ; yes             ; User Verilog HDL File              ; C:/Users/birdp/main-data/hdev/fpga-getting-started/getting-started.v                ;         ;
-; output_files/getting-started.bdf ; yes             ; User Block Diagram/Schematic File  ; C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/getting-started.bdf ;         ;
-; pll.v                            ; yes             ; User Wizard-Generated File         ; C:/Users/birdp/main-data/hdev/fpga-getting-started/pll.v                            ;         ;
-; output_files/VS_Counter.v        ; yes             ; User Verilog HDL File              ; C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/VS_Counter.v        ;         ;
-; output_files/HS_Counter.v        ; yes             ; User Verilog HDL File              ; C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/HS_Counter.v        ;         ;
-; output_files/V_Sync.v            ; yes             ; User Verilog HDL File              ; C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/V_Sync.v            ;         ;
-; output_files/H_Sync.v            ; yes             ; User Verilog HDL File              ; C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/H_Sync.v            ;         ;
-; output_files/Display_Ready.v     ; yes             ; User Verilog HDL File              ; C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/Display_Ready.v     ;         ;
-; output_files/AssignRGBToPins.v   ; yes             ; User Verilog HDL File              ; C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/AssignRGBToPins.v   ;         ;
-; output_files/DisplayLines.v      ; yes             ; User Verilog HDL File              ; C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/DisplayLines.v      ;         ;
-; altpll.tdf                       ; yes             ; Megafunction                       ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/altpll.tdf                ;         ;
-; aglobal221.inc                   ; yes             ; Megafunction                       ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/aglobal221.inc            ;         ;
-; stratix_pll.inc                  ; yes             ; Megafunction                       ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/stratix_pll.inc           ;         ;
-; stratixii_pll.inc                ; yes             ; Megafunction                       ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/stratixii_pll.inc         ;         ;
-; cycloneii_pll.inc                ; yes             ; Megafunction                       ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/cycloneii_pll.inc         ;         ;
-; db/pll_altpll.v                  ; yes             ; Auto-Generated Megafunction        ; C:/Users/birdp/main-data/hdev/fpga-getting-started/db/pll_altpll.v                  ;         ;
-+----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                          ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                ; Library ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------+---------+
+; getting-started.v                ; yes             ; User Verilog HDL File              ; C:/Users/birdp/main-data/hdev/fpga-gpu/getting-started.v                    ;         ;
+; output_files/getting-started.bdf ; yes             ; User Block Diagram/Schematic File  ; C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/getting-started.bdf     ;         ;
+; pll.v                            ; yes             ; User Wizard-Generated File         ; C:/Users/birdp/main-data/hdev/fpga-gpu/pll.v                                ;         ;
+; output_files/VS_Counter.v        ; yes             ; User Verilog HDL File              ; C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/VS_Counter.v            ;         ;
+; output_files/HS_Counter.v        ; yes             ; User Verilog HDL File              ; C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/HS_Counter.v            ;         ;
+; output_files/V_Sync.v            ; yes             ; User Verilog HDL File              ; C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/V_Sync.v                ;         ;
+; output_files/H_Sync.v            ; yes             ; User Verilog HDL File              ; C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/H_Sync.v                ;         ;
+; output_files/Display_Ready.v     ; yes             ; User Verilog HDL File              ; C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/Display_Ready.v         ;         ;
+; output_files/AssignRGBToPins.v   ; yes             ; User Verilog HDL File              ; C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/AssignRGBToPins.v       ;         ;
+; output_files/DisplayLines.v      ; yes             ; User Verilog HDL File              ; C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/DisplayLines.v          ;         ;
+; altpll.tdf                       ; yes             ; Megafunction                       ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/altpll.tdf        ;         ;
+; aglobal221.inc                   ; yes             ; Megafunction                       ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/aglobal221.inc    ;         ;
+; stratix_pll.inc                  ; yes             ; Megafunction                       ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/stratix_pll.inc   ;         ;
+; stratixii_pll.inc                ; yes             ; Megafunction                       ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/stratixii_pll.inc ;         ;
+; cycloneii_pll.inc                ; yes             ; Megafunction                       ; c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/cycloneii_pll.inc ;         ;
+; db/pll_altpll.v                  ; yes             ; Auto-Generated Megafunction        ; C:/Users/birdp/main-data/hdev/fpga-gpu/db/pll_altpll.v                      ;         ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------------------------------------------------------+
@@ -213,8 +213,8 @@ https://fpgasoftware.intel.com/eula.
 ;                          ;                                                                              ;
 ; Maximum fan-out node     ; pll:inst2|altpll:altpll_component|pll_altpll:auto_generated|wire_pll1_clk[0] ;
 ; Maximum fan-out          ; 71                                                                           ;
-; Total fan-out            ; 574                                                                          ;
-; Average fan-out          ; 2.04                                                                         ;
+; Total fan-out            ; 561                                                                          ;
+; Average fan-out          ; 2.06                                                                         ;
 +--------------------------+------------------------------------------------------------------------------+
 
 
@@ -223,14 +223,14 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+------------------------------------------------------------------------------+-----------------+--------------+
 ; Compilation Hierarchy Node           ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                          ; Entity Name     ; Library Name ;
 +--------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+------------------------------------------------------------------------------+-----------------+--------------+
-; |getting-started                     ; 142 (0)             ; 79 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0         ; 30   ; 0            ; |getting-started                                                             ; getting-started ; work         ;
-;    |DisplayLines:inst10|             ; 63 (63)             ; 36 (36)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |getting-started|DisplayLines:inst10                                         ; DisplayLines    ; work         ;
+; |getting-started                     ; 132 (0)             ; 79 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0         ; 30   ; 0            ; |getting-started                                                             ; getting-started ; work         ;
+;    |DisplayLines:inst10|             ; 53 (53)             ; 40 (40)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |getting-started|DisplayLines:inst10                                         ; DisplayLines    ; work         ;
 ;    |Display_Ready:inst7|             ; 18 (18)             ; 11 (11)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |getting-started|Display_Ready:inst7                                         ; Display_Ready   ; work         ;
 ;    |HS_Counter:inst4|                ; 15 (15)             ; 9 (9)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |getting-started|HS_Counter:inst4                                            ; HS_Counter      ; work         ;
 ;    |H_Sync:inst6|                    ; 3 (3)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |getting-started|H_Sync:inst6                                                ; H_Sync          ; work         ;
 ;    |VS_Counter:inst3|                ; 16 (16)             ; 10 (10)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |getting-started|VS_Counter:inst3                                            ; VS_Counter      ; work         ;
 ;    |V_Sync:inst5|                    ; 2 (2)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |getting-started|V_Sync:inst5                                                ; V_Sync          ; work         ;
-;    |blink:inst|                      ; 25 (25)             ; 11 (11)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |getting-started|blink:inst                                                  ; blink           ; work         ;
+;    |blink:inst|                      ; 25 (25)             ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |getting-started|blink:inst                                                  ; blink           ; work         ;
 ;    |pll:inst2|                       ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |getting-started|pll:inst2                                                   ; pll             ; work         ;
 ;       |altpll:altpll_component|      ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |getting-started|pll:inst2|altpll:altpll_component                           ; altpll          ; work         ;
 ;          |pll_altpll:auto_generated| ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |getting-started|pll:inst2|altpll:altpll_component|pll_altpll:auto_generated ; pll_altpll      ; work         ;
@@ -269,10 +269,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; blink:inst|cnt[12]                     ; Merged with DisplayLines:inst10|cnt[12] ;
 ; blink:inst|cnt[13]                     ; Merged with DisplayLines:inst10|cnt[13] ;
 ; blink:inst|cnt[14]                     ; Merged with DisplayLines:inst10|cnt[14] ;
+; blink:inst|cnt[15]                     ; Merged with DisplayLines:inst10|cnt[15] ;
+; blink:inst|cnt[16]                     ; Merged with DisplayLines:inst10|cnt[16] ;
+; blink:inst|cnt[17]                     ; Merged with DisplayLines:inst10|cnt[17] ;
+; blink:inst|cnt[18]                     ; Merged with DisplayLines:inst10|cnt[18] ;
 ; HS_Counter:inst4|count[0]              ; Merged with DisplayLines:inst10|cnt[0]  ;
 ; HS_Counter:inst4|count[1]              ; Merged with DisplayLines:inst10|cnt[1]  ;
 ; blink:inst|cnt[26..31]                 ; Lost fanout                             ;
-; DisplayLines:inst10|cnt[16..31]        ; Lost fanout                             ;
+; DisplayLines:inst10|cnt[20..31]        ; Lost fanout                             ;
 ; Total Number of Removed Registers = 45 ;                                         ;
 +----------------------------------------+-----------------------------------------+
 
@@ -287,7 +291,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 10    ;
+; Number of registers using Clock Enable       ; 20    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -737,22 +741,23 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; boundary_port         ; 30                          ;
 ; cycloneiii_ff         ; 79                          ;
 ;     ENA               ; 10                          ;
-;     SCLR              ; 20                          ;
+;     ENA SCLR          ; 10                          ;
+;     SCLR              ; 10                          ;
 ;     plain             ; 49                          ;
-; cycloneiii_lcell_comb ; 143                         ;
-;     arith             ; 102                         ;
-;         2 data inputs ; 79                          ;
-;         3 data inputs ; 23                          ;
-;     normal            ; 41                          ;
+; cycloneiii_lcell_comb ; 133                         ;
+;     arith             ; 95                          ;
+;         2 data inputs ; 74                          ;
+;         3 data inputs ; 21                          ;
+;     normal            ; 38                          ;
 ;         0 data inputs ; 1                           ;
-;         1 data inputs ; 9                           ;
+;         1 data inputs ; 7                           ;
 ;         2 data inputs ; 7                           ;
-;         3 data inputs ; 7                           ;
-;         4 data inputs ; 17                          ;
+;         3 data inputs ; 8                           ;
+;         4 data inputs ; 15                          ;
 ; cycloneiv_pll         ; 1                           ;
 ;                       ;                             ;
 ; Max LUT depth         ; 4.00                        ;
-; Average LUT depth     ; 2.52                        ;
+; Average LUT depth     ; 2.39                        ;
 +-----------------------+-----------------------------+
 
 
@@ -771,36 +776,36 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Fri May 10 21:28:39 2024
+    Info: Processing started: Fri May 10 21:58:40 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off getting-started -c getting-started
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file getting-started.v
-    Info (12023): Found entity 1: blink File: C:/Users/birdp/main-data/hdev/fpga-getting-started/getting-started.v Line: 1
+    Info (12023): Found entity 1: blink File: C:/Users/birdp/main-data/hdev/fpga-gpu/getting-started.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file output_files/getting-started.bdf
     Info (12023): Found entity 1: getting-started
 Info (12021): Found 1 design units, including 1 entities, in source file pll.v
-    Info (12023): Found entity 1: pll File: C:/Users/birdp/main-data/hdev/fpga-getting-started/pll.v Line: 40
+    Info (12023): Found entity 1: pll File: C:/Users/birdp/main-data/hdev/fpga-gpu/pll.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file output_files/vs_counter.v
-    Info (12023): Found entity 1: VS_Counter File: C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/VS_Counter.v Line: 1
+    Info (12023): Found entity 1: VS_Counter File: C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/VS_Counter.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file output_files/hs_counter.v
-    Info (12023): Found entity 1: HS_Counter File: C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/HS_Counter.v Line: 1
+    Info (12023): Found entity 1: HS_Counter File: C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/HS_Counter.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file output_files/v_sync.v
-    Info (12023): Found entity 1: V_Sync File: C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/V_Sync.v Line: 1
+    Info (12023): Found entity 1: V_Sync File: C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/V_Sync.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file output_files/h_sync.v
-    Info (12023): Found entity 1: H_Sync File: C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/H_Sync.v Line: 1
+    Info (12023): Found entity 1: H_Sync File: C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/H_Sync.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file output_files/display_ready.v
-    Info (12023): Found entity 1: Display_Ready File: C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/Display_Ready.v Line: 1
+    Info (12023): Found entity 1: Display_Ready File: C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/Display_Ready.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file output_files/assignrgbtopins.v
-    Info (12023): Found entity 1: AssignRGBToPins File: C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/AssignRGBToPins.v Line: 1
+    Info (12023): Found entity 1: AssignRGBToPins File: C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/AssignRGBToPins.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file output_files/displaylines.v
-    Info (12023): Found entity 1: DisplayLines File: C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/DisplayLines.v Line: 1
+    Info (12023): Found entity 1: DisplayLines File: C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/DisplayLines.v Line: 1
 Info (12127): Elaborating entity "getting-started" for the top level hierarchy
 Info (12128): Elaborating entity "blink" for hierarchy "blink:inst"
 Info (12128): Elaborating entity "pll" for hierarchy "pll:inst2"
-Info (12128): Elaborating entity "altpll" for hierarchy "pll:inst2|altpll:altpll_component" File: C:/Users/birdp/main-data/hdev/fpga-getting-started/pll.v Line: 91
-Info (12130): Elaborated megafunction instantiation "pll:inst2|altpll:altpll_component" File: C:/Users/birdp/main-data/hdev/fpga-getting-started/pll.v Line: 91
-Info (12133): Instantiated megafunction "pll:inst2|altpll:altpll_component" with the following parameter: File: C:/Users/birdp/main-data/hdev/fpga-getting-started/pll.v Line: 91
+Info (12128): Elaborating entity "altpll" for hierarchy "pll:inst2|altpll:altpll_component" File: C:/Users/birdp/main-data/hdev/fpga-gpu/pll.v Line: 91
+Info (12130): Elaborated megafunction instantiation "pll:inst2|altpll:altpll_component" File: C:/Users/birdp/main-data/hdev/fpga-gpu/pll.v Line: 91
+Info (12133): Instantiated megafunction "pll:inst2|altpll:altpll_component" with the following parameter: File: C:/Users/birdp/main-data/hdev/fpga-gpu/pll.v Line: 91
     Info (12134): Parameter "bandwidth_type" = "AUTO"
     Info (12134): Parameter "clk0_divide_by" = "2000"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
@@ -856,20 +861,20 @@ Info (12133): Instantiated megafunction "pll:inst2|altpll:altpll_component" with
     Info (12134): Parameter "port_extclk3" = "PORT_UNUSED"
     Info (12134): Parameter "width_clock" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/pll_altpll.v
-    Info (12023): Found entity 1: pll_altpll File: C:/Users/birdp/main-data/hdev/fpga-getting-started/db/pll_altpll.v Line: 30
+    Info (12023): Found entity 1: pll_altpll File: C:/Users/birdp/main-data/hdev/fpga-gpu/db/pll_altpll.v Line: 30
 Info (12128): Elaborating entity "pll_altpll" for hierarchy "pll:inst2|altpll:altpll_component|pll_altpll:auto_generated" File: c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/altpll.tdf Line: 898
 Info (12128): Elaborating entity "V_Sync" for hierarchy "V_Sync:inst5"
 Info (12128): Elaborating entity "VS_Counter" for hierarchy "VS_Counter:inst3"
-Warning (10230): Verilog HDL assignment warning at VS_Counter.v(16): truncated value with size 32 to match size of target (10) File: C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/VS_Counter.v Line: 16
+Warning (10230): Verilog HDL assignment warning at VS_Counter.v(16): truncated value with size 32 to match size of target (10) File: C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/VS_Counter.v Line: 16
 Info (12128): Elaborating entity "HS_Counter" for hierarchy "HS_Counter:inst4"
-Warning (10230): Verilog HDL assignment warning at HS_Counter.v(18): truncated value with size 32 to match size of target (10) File: C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/HS_Counter.v Line: 18
+Warning (10230): Verilog HDL assignment warning at HS_Counter.v(18): truncated value with size 32 to match size of target (10) File: C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/HS_Counter.v Line: 18
 Info (12128): Elaborating entity "H_Sync" for hierarchy "H_Sync:inst6"
 Info (12128): Elaborating entity "AssignRGBToPins" for hierarchy "AssignRGBToPins:inst8"
 Info (12128): Elaborating entity "DisplayLines" for hierarchy "DisplayLines:inst10"
-Warning (10230): Verilog HDL assignment warning at DisplayLines.v(27): truncated value with size 32 to match size of target (10) File: C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/DisplayLines.v Line: 27
+Warning (10230): Verilog HDL assignment warning at DisplayLines.v(28): truncated value with size 32 to match size of target (10) File: C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/DisplayLines.v Line: 28
 Info (12128): Elaborating entity "Display_Ready" for hierarchy "Display_Ready:inst7"
-Warning (10230): Verilog HDL assignment warning at Display_Ready.v(21): truncated value with size 32 to match size of target (10) File: C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/Display_Ready.v Line: 21
-Warning (10230): Verilog HDL assignment warning at Display_Ready.v(28): truncated value with size 32 to match size of target (10) File: C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/Display_Ready.v Line: 28
+Warning (10230): Verilog HDL assignment warning at Display_Ready.v(21): truncated value with size 32 to match size of target (10) File: C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/Display_Ready.v Line: 21
+Warning (10230): Verilog HDL assignment warning at Display_Ready.v(28): truncated value with size 32 to match size of target (10) File: C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/Display_Ready.v Line: 28
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "VGA_R0" is stuck at GND
     Warning (13410): Pin "VGA_R1" is stuck at GND
@@ -886,18 +891,18 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "VGA_B6" is stuck at GND
     Warning (13410): Pin "VGA_B7" is stuck at GND
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 22 registers lost all their fanouts during netlist optimizations.
+Info (17049): 18 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 184 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 174 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 1 input pins
     Info (21059): Implemented 29 output pins
-    Info (21061): Implemented 153 logic cells
+    Info (21061): Implemented 143 logic cells
     Info (21065): Implemented 1 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 21 warnings
-    Info: Peak virtual memory: 4891 megabytes
-    Info: Processing ended: Fri May 10 21:28:47 2024
+    Info: Peak virtual memory: 4899 megabytes
+    Info: Processing ended: Fri May 10 21:58:48 2024
     Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:13
+    Info: Total CPU time (on all processors): 00:00:12
 
 

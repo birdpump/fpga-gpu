@@ -1,12 +1,12 @@
-Fitter Status : Successful - Fri May 10 21:29:03 2024
+Fitter Status : Successful - Fri May 10 21:59:03 2024
 Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 Revision Name : getting-started
 Top-level Entity Name : getting-started
 Family : Cyclone IV GX
 Device : EP4CGX150DF31I7
 Timing Models : Final
-Total logic elements : 150 / 149,760 ( < 1 % )
-    Total combinational functions : 142 / 149,760 ( < 1 % )
+Total logic elements : 141 / 149,760 ( < 1 % )
+    Total combinational functions : 132 / 149,760 ( < 1 % )
     Dedicated logic registers : 79 / 149,760 ( < 1 % )
 Total registers : 79
 Total pins : 30 / 508 ( 6 % )

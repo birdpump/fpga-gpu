@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CGX150DF31) Path("C:/Users/birdp/main-data/hdev/fpga-getting-started/output_files/") File("getting-started.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CGX150DF31) Path("C:/Users/birdp/main-data/hdev/fpga-gpu/output_files/") File("getting-started.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
