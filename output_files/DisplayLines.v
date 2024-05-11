@@ -22,14 +22,12 @@ always @(posedge clk) begin
 end
 
 
-always @(posedge cnt[19]) begin
-	if (enable) begin
+always @(posedge cnt[17]) begin
 		if (speed < 10'd640) begin
 			 speed <= speed + 1;
 		end else begin
 			 speed <= 0;
 		end
-	end
 end
 
 
@@ -37,7 +35,7 @@ end
 always @(posedge clk) begin
     if (enable) begin
         
-        if (input_register >= (speed) && input_register <= (speed)) begin
+        if (input_register > (speed) && input_register < (speed + 20)) begin
             output_g <= 8'd0;
             output_r <= 8'd220;
         end else begin
