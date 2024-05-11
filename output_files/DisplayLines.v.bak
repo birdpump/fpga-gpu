@@ -1,0 +1,22 @@
+module DisplayLines (
+	 input wire clk,
+    input wire [9:0] input_register,
+    output reg [7:0] output_r
+);
+
+reg [4:0] counter; // Counter to keep track of alternating blocks
+
+always @(posedge clk) begin
+    if (counter == 10) begin
+        counter <= 0; // Reset the counter
+    end else begin
+        counter <= counter + 1; // Increment the counter
+    end
+    
+    // Toggle output_signal every 20 input transitions
+    if (counter == 0 || counter == 10) begin
+        output_r <= 10'd144;
+    end
+end
+
+endmodule

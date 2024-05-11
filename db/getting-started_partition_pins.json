@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pin_name1",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name2",
+					"strict" : false
+				},
+				{
+					"name" : "test-point1",
+					"strict" : false
+				},
+				{
+					"name" : "test-point2",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R2",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R3",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R4",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R6",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R7",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G2",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G3",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G4",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G6",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G7",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

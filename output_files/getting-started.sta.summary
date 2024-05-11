@@ -1,0 +1,89 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 100C Model Setup 'inst2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -8.501
+TNS   : -85.781
+
+Type  : Slow 1200mV 100C Model Setup 'DisplayLines:inst10|cnt[15]'
+Slack : -1.349
+TNS   : -13.078
+
+Type  : Slow 1200mV 100C Model Hold 'inst2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Hold 'DisplayLines:inst10|cnt[15]'
+Slack : 0.561
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'DisplayLines:inst10|cnt[15]'
+Slack : -1.500
+TNS   : -15.000
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'clk-two'
+Slack : 9.892
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'inst2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.481
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Setup 'inst2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -7.269
+TNS   : -73.065
+
+Type  : Slow 1200mV -40C Model Setup 'DisplayLines:inst10|cnt[15]'
+Slack : -1.057
+TNS   : -10.203
+
+Type  : Slow 1200mV -40C Model Hold 'inst2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'DisplayLines:inst10|cnt[15]'
+Slack : 0.476
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'DisplayLines:inst10|cnt[15]'
+Slack : -1.500
+TNS   : -15.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'clk-two'
+Slack : 9.910
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'inst2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.472
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Setup 'inst2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -4.085
+TNS   : -41.146
+
+Type  : Fast 1200mV -40C Model Setup 'DisplayLines:inst10|cnt[15]'
+Slack : -0.064
+TNS   : -0.576
+
+Type  : Fast 1200mV -40C Model Hold 'inst2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'DisplayLines:inst10|cnt[15]'
+Slack : 0.240
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'DisplayLines:inst10|cnt[15]'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'clk-two'
+Slack : 9.627
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'inst2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.597
+TNS   : 0.000
+
+------------------------------------------------------------
