@@ -11,6 +11,7 @@ parameter LOWER_LIMIT = 10'd100;
 parameter UPPER_LIMIT = 10'd1;
 
 reg [9:0] speed;
+reg dir;
 
 
 reg [31:0] cnt;
@@ -22,12 +23,20 @@ always @(posedge clk) begin
 end
 
 
-always @(posedge cnt[17]) begin
-		if (speed < 10'd640) begin
-			 speed <= speed + 1;
-		end else begin
-			 speed <= 0;
-		end
+always @(posedge cnt[15]) begin
+    if (dir == 1'b0) begin
+        if (speed < 10'd620) begin
+            speed <= speed + 1;
+        end else begin
+            dir <= 1'b1; // Use non-blocking assignment for sequential logic
+        end
+    end else begin
+        if (speed > 10'd0) begin
+            speed <= speed - 1;
+        end else begin
+            dir <= 1'b0; // Use non-blocking assignment for sequential logic
+        end
+    end
 end
 
 
@@ -36,15 +45,15 @@ always @(posedge clk) begin
     if (enable) begin
         
         if (input_register > (speed) && input_register < (speed + 20)) begin
-            output_g <= 8'd0;
+            //output_g <= 8'd0;
             output_r <= 8'd220;
         end else begin
             output_r <= 8'd0;
-            output_g <= 8'd220;
+            //output_g <= 8'd220;
         end
     end else begin
         output_r <= 8'd0;
-        output_g <= 8'd0;
+        //output_g <= 8'd0;
     end
 end
 
