@@ -1,8 +1,6 @@
 |getting-started
-pin_name1 <= blink:inst.LED
-clk-two => pll:inst2.inclk0
-pin_name2 <= blink:inst.LE
 test-point1 <= V_Sync:inst5.out
+clk-two => pll:inst2.inclk0
 test-point2 <= H_Sync:inst6.out
 VGA_CLK <= pll:inst2.c0
 VGA_R0 <= AssignRGBToPins:inst8.vga_r_0
@@ -31,42 +29,29 @@ VGA_B6 <= AssignRGBToPins:inst8.vga_b_6
 VGA_B7 <= AssignRGBToPins:inst8.vga_b_7
 
 
-|getting-started|blink:inst
-clk => cnt[0].CLK
-clk => cnt[1].CLK
-clk => cnt[2].CLK
-clk => cnt[3].CLK
-clk => cnt[4].CLK
-clk => cnt[5].CLK
-clk => cnt[6].CLK
-clk => cnt[7].CLK
-clk => cnt[8].CLK
-clk => cnt[9].CLK
-clk => cnt[10].CLK
-clk => cnt[11].CLK
-clk => cnt[12].CLK
-clk => cnt[13].CLK
-clk => cnt[14].CLK
-clk => cnt[15].CLK
-clk => cnt[16].CLK
-clk => cnt[17].CLK
-clk => cnt[18].CLK
-clk => cnt[19].CLK
-clk => cnt[20].CLK
-clk => cnt[21].CLK
-clk => cnt[22].CLK
-clk => cnt[23].CLK
-clk => cnt[24].CLK
-clk => cnt[25].CLK
-clk => cnt[26].CLK
-clk => cnt[27].CLK
-clk => cnt[28].CLK
-clk => cnt[29].CLK
-clk => cnt[30].CLK
-clk => cnt[31].CLK
-LED <= cnt[24].DB_MAX_OUTPUT_PORT_TYPE
-LE <= cnt[25].DB_MAX_OUTPUT_PORT_TYPE
-always_on_pin <= <VCC>
+|getting-started|V_Sync:inst5
+clk => ~NO_FANOUT~
+data[0] => LessThan0.IN20
+data[0] => LessThan1.IN20
+data[1] => LessThan0.IN19
+data[1] => LessThan1.IN19
+data[2] => LessThan0.IN18
+data[2] => LessThan1.IN18
+data[3] => LessThan0.IN17
+data[3] => LessThan1.IN17
+data[4] => LessThan0.IN16
+data[4] => LessThan1.IN16
+data[5] => LessThan0.IN15
+data[5] => LessThan1.IN15
+data[6] => LessThan0.IN14
+data[6] => LessThan1.IN14
+data[7] => LessThan0.IN13
+data[7] => LessThan1.IN13
+data[8] => LessThan0.IN12
+data[8] => LessThan1.IN12
+data[9] => LessThan0.IN11
+data[9] => LessThan1.IN11
+out <= always0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |getting-started|pll:inst2
@@ -144,31 +129,6 @@ inclk[0] => pll1.CLK
 inclk[1] => pll1.CLK1
 
 
-|getting-started|V_Sync:inst5
-clk => out~reg0.CLK
-data[0] => LessThan0.IN20
-data[0] => LessThan1.IN20
-data[1] => LessThan0.IN19
-data[1] => LessThan1.IN19
-data[2] => LessThan0.IN18
-data[2] => LessThan1.IN18
-data[3] => LessThan0.IN17
-data[3] => LessThan1.IN17
-data[4] => LessThan0.IN16
-data[4] => LessThan1.IN16
-data[5] => LessThan0.IN15
-data[5] => LessThan1.IN15
-data[6] => LessThan0.IN14
-data[6] => LessThan1.IN14
-data[7] => LessThan0.IN13
-data[7] => LessThan1.IN13
-data[8] => LessThan0.IN12
-data[8] => LessThan1.IN12
-data[9] => LessThan0.IN11
-data[9] => LessThan1.IN11
-out <= out~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
 |getting-started|VS_Counter:inst3
 clk => count[0]~reg0.CLK
 clk => count[1]~reg0.CLK
@@ -234,7 +194,6 @@ reset => count[6]~reg0.ACLR
 reset => count[7]~reg0.ACLR
 reset => count[8]~reg0.ACLR
 reset => count[9]~reg0.ACLR
-reset => next~reg0.ENA
 next <= next~reg0.DB_MAX_OUTPUT_PORT_TYPE
 count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
@@ -249,7 +208,7 @@ count[9] <= count[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |getting-started|H_Sync:inst6
-clk => out~reg0.CLK
+clk => ~NO_FANOUT~
 data[0] => LessThan0.IN20
 data[0] => LessThan1.IN20
 data[1] => LessThan0.IN19
@@ -270,7 +229,7 @@ data[8] => LessThan0.IN12
 data[8] => LessThan1.IN12
 data[9] => LessThan0.IN11
 data[9] => LessThan1.IN11
-out <= out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out <= always0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |getting-started|AssignRGBToPins:inst8
@@ -416,6 +375,7 @@ clk => posy[6]~reg0.CLK
 clk => posy[7]~reg0.CLK
 clk => posy[8]~reg0.CLK
 clk => posy[9]~reg0.CLK
+clk => line.CLK
 clk => posx[0]~reg0.CLK
 clk => posx[1]~reg0.CLK
 clk => posx[2]~reg0.CLK
@@ -428,24 +388,34 @@ clk => posx[8]~reg0.CLK
 clk => posx[9]~reg0.CLK
 data1[0] => LessThan0.IN20
 data1[0] => LessThan1.IN20
+data1[0] => LessThan4.IN20
 data1[1] => LessThan0.IN19
 data1[1] => LessThan1.IN19
+data1[1] => LessThan4.IN19
 data1[2] => LessThan0.IN18
 data1[2] => LessThan1.IN18
+data1[2] => LessThan4.IN18
 data1[3] => LessThan0.IN17
 data1[3] => LessThan1.IN17
+data1[3] => LessThan4.IN17
 data1[4] => LessThan0.IN16
 data1[4] => LessThan1.IN16
+data1[4] => LessThan4.IN16
 data1[5] => LessThan0.IN15
 data1[5] => LessThan1.IN15
+data1[5] => LessThan4.IN15
 data1[6] => LessThan0.IN14
 data1[6] => LessThan1.IN14
+data1[6] => LessThan4.IN14
 data1[7] => LessThan0.IN13
 data1[7] => LessThan1.IN13
+data1[7] => LessThan4.IN13
 data1[8] => LessThan0.IN12
 data1[8] => LessThan1.IN12
+data1[8] => LessThan4.IN12
 data1[9] => LessThan0.IN11
 data1[9] => LessThan1.IN11
+data1[9] => LessThan4.IN11
 data2[0] => LessThan2.IN20
 data2[0] => LessThan3.IN20
 data2[1] => LessThan2.IN19

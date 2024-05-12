@@ -35,41 +35,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 117 12)(pt 121 8))
 	)
 	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect -40 144 24 168))
-)
-(pin
-	(output)
-	(rect 2368 128 2544 144)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name1" (rect 90 0 143 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8))
-		(line (pt 52 4)(pt 78 4))
-		(line (pt 52 12)(pt 78 12))
-		(line (pt 52 12)(pt 52 4))
-		(line (pt 78 4)(pt 82 8))
-		(line (pt 82 8)(pt 78 12))
-		(line (pt 78 12)(pt 82 8))
-	)
-	(annotation_block (location)(rect 2544 144 2616 168))
-)
-(pin
-	(output)
-	(rect 2368 144 2544 160)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name2" (rect 90 0 143 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8))
-		(line (pt 52 4)(pt 78 4))
-		(line (pt 52 12)(pt 78 12))
-		(line (pt 52 12)(pt 52 4))
-		(line (pt 78 4)(pt 82 8))
-		(line (pt 82 8)(pt 78 12))
-		(line (pt 78 12)(pt 82 8))
-	)
-	(annotation_block (location)(rect 2544 160 2616 184))
 )
 (pin
 	(output)
@@ -86,7 +51,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1464 264 1528 288))
 )
 (pin
 	(output)
@@ -103,7 +67,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1464 424 1528 448))
 )
 (pin
 	(output)
@@ -120,7 +83,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1544 800 1608 824))
 )
 (pin
 	(output)
@@ -137,7 +99,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 296 2568 320))
 )
 (pin
 	(output)
@@ -154,7 +115,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 312 2568 336))
 )
 (pin
 	(output)
@@ -171,7 +131,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 328 2568 352))
 )
 (pin
 	(output)
@@ -188,7 +147,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 344 2568 368))
 )
 (pin
 	(output)
@@ -205,7 +163,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 360 2568 384))
 )
 (pin
 	(output)
@@ -222,7 +179,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 376 2568 400))
 )
 (pin
 	(output)
@@ -239,7 +195,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 392 2568 416))
 )
 (pin
 	(output)
@@ -256,7 +211,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 408 2568 432))
 )
 (pin
 	(output)
@@ -273,7 +227,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 424 2568 448))
 )
 (pin
 	(output)
@@ -290,7 +243,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 440 2568 464))
 )
 (pin
 	(output)
@@ -307,7 +259,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 456 2568 480))
 )
 (pin
 	(output)
@@ -324,7 +275,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 472 2568 496))
 )
 (pin
 	(output)
@@ -341,7 +291,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 488 2568 512))
 )
 (pin
 	(output)
@@ -358,7 +307,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 504 2568 528))
 )
 (pin
 	(output)
@@ -375,7 +323,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 520 2568 544))
 )
 (pin
 	(output)
@@ -392,7 +339,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 536 2568 560))
 )
 (pin
 	(output)
@@ -409,7 +355,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 552 2568 576))
 )
 (pin
 	(output)
@@ -426,7 +371,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 568 2568 592))
 )
 (pin
 	(output)
@@ -443,7 +387,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 584 2568 608))
 )
 (pin
 	(output)
@@ -460,7 +403,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 600 2568 624))
 )
 (pin
 	(output)
@@ -477,7 +419,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 616 2568 640))
 )
 (pin
 	(output)
@@ -494,7 +435,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 632 2568 656))
 )
 (pin
 	(output)
@@ -511,7 +451,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 648 2568 672))
 )
 (pin
 	(output)
@@ -528,7 +467,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2504 664 2568 688))
 )
 (symbol
 	(rect 240 72 496 224)
@@ -649,157 +587,6 @@ https://fpgasoftware.intel.com/eula.
 	(drawing
 		(rectangle (rect 16 16 144 64))
 	)
-)
-(symbol
-	(rect 1112 224 1264 304)
-	(text "V_Sync" (rect 5 0 43 12)(font "Arial" ))
-	(text "inst5" (rect 8 64 31 76)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "clk" (rect 0 0 14 12)(font "Arial" ))
-		(text "clk" (rect 21 27 35 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "data[9..0]" (rect 0 0 47 12)(font "Arial" ))
-		(text "data[9..0]" (rect 21 43 68 55)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 152 32)
-		(output)
-		(text "out" (rect 0 0 15 12)(font "Arial" ))
-		(text "out" (rect 119 27 131 39)(font "Arial" ))
-		(line (pt 152 32)(pt 136 32))
-	)
-	(parameter
-		"LOWER_LIMIT"
-		"0000000000"
-		""
-		(type "PARAMETER_UNSIGNED_BIN")	)
-	(parameter
-		"UPPER_LIMIT"
-		"0000000010"
-		""
-		(type "PARAMETER_UNSIGNED_BIN")	)
-	(drawing
-		(rectangle (rect 16 16 136 64))
-	)
-	(annotation_block (parameter)(rect 1264 160 1504 224))
-)
-(symbol
-	(rect 1112 384 1264 464)
-	(text "H_Sync" (rect 5 0 45 12)(font "Arial" ))
-	(text "inst6" (rect 8 64 31 76)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "clk" (rect 0 0 14 12)(font "Arial" ))
-		(text "clk" (rect 21 27 35 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "data[9..0]" (rect 0 0 47 12)(font "Arial" ))
-		(text "data[9..0]" (rect 21 43 68 55)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 152 32)
-		(output)
-		(text "out" (rect 0 0 15 12)(font "Arial" ))
-		(text "out" (rect 119 27 131 39)(font "Arial" ))
-		(line (pt 152 32)(pt 136 32))
-	)
-	(parameter
-		"LOWER_LIMIT"
-		"0000000000"
-		""
-		(type "PARAMETER_UNSIGNED_BIN")	)
-	(parameter
-		"UPPER_LIMIT"
-		"0001100000"
-		""
-		(type "PARAMETER_UNSIGNED_BIN")	)
-	(drawing
-		(rectangle (rect 16 16 136 64))
-	)
-	(annotation_block (parameter)(rect 1264 320 1504 384))
-)
-(symbol
-	(rect 1112 576 1296 688)
-	(text "Display_Ready" (rect 5 0 81 12)(font "Arial" ))
-	(text "inst7" (rect 8 96 31 108)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "clk" (rect 0 0 14 12)(font "Arial" ))
-		(text "clk" (rect 21 27 35 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "data1[9..0]" (rect 0 0 53 12)(font "Arial" ))
-		(text "data1[9..0]" (rect 21 43 74 55)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 0 64)
-		(input)
-		(text "data2[9..0]" (rect 0 0 53 12)(font "Arial" ))
-		(text "data2[9..0]" (rect 21 59 74 71)(font "Arial" ))
-		(line (pt 0 64)(pt 16 64)(line_width 3))
-	)
-	(port
-		(pt 184 32)
-		(output)
-		(text "posx[9..0]" (rect 0 0 49 12)(font "Arial" ))
-		(text "posx[9..0]" (rect 122 27 163 39)(font "Arial" ))
-		(line (pt 184 32)(pt 168 32)(line_width 3))
-	)
-	(port
-		(pt 184 48)
-		(output)
-		(text "posy[9..0]" (rect 0 0 50 12)(font "Arial" ))
-		(text "posy[9..0]" (rect 121 43 163 55)(font "Arial" ))
-		(line (pt 184 48)(pt 168 48)(line_width 3))
-	)
-	(port
-		(pt 184 64)
-		(output)
-		(text "ready" (rect 0 0 28 12)(font "Arial" ))
-		(text "ready" (rect 140 59 163 71)(font "Arial" ))
-		(line (pt 184 64)(pt 168 64))
-	)
-	(parameter
-		"LOWER_LIMIT1"
-		"0010010000"
-		""
-		(type "PARAMETER_UNSIGNED_BIN")	)
-	(parameter
-		"UPPER_LIMIT1"
-		"1100010000"
-		""
-		(type "PARAMETER_UNSIGNED_BIN")	)
-	(parameter
-		"LOWER_LIMIT2"
-		"0000100011"
-		""
-		(type "PARAMETER_UNSIGNED_BIN")	)
-	(parameter
-		"UPPER_LIMIT2"
-		"1000000011"
-		""
-		(type "PARAMETER_UNSIGNED_BIN")	)
-	(drawing
-		(rectangle (rect 16 16 168 96))
-	)
-	(annotation_block (parameter)(rect 1280 480 1528 576))
 )
 (symbol
 	(rect 2144 256 2328 688)
@@ -999,42 +786,6 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 2144 104 2312 216)
-	(text "blink" (rect 5 0 27 12)(font "Arial" ))
-	(text "inst" (rect 8 96 25 108)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "clk" (rect 0 0 14 12)(font "Arial" ))
-		(text "clk" (rect 21 27 35 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 168 32)
-		(output)
-		(text "LED" (rect 0 0 21 12)(font "Arial" ))
-		(text "LED" (rect 130 27 147 39)(font "Arial" ))
-		(line (pt 168 32)(pt 152 32))
-	)
-	(port
-		(pt 168 48)
-		(output)
-		(text "LE" (rect 0 0 12 12)(font "Arial" ))
-		(text "LE" (rect 137 43 147 55)(font "Arial" ))
-		(line (pt 168 48)(pt 152 48))
-	)
-	(port
-		(pt 168 64)
-		(output)
-		(text "always_on_pin" (rect 0 0 71 12)(font "Arial" ))
-		(text "always_on_pin" (rect 87 59 147 71)(font "Arial" ))
-		(line (pt 168 64)(pt 152 64))
-	)
-	(drawing
-		(rectangle (rect 16 16 152 96))
-	)
-)
-(symbol
 	(rect 1368 648 1600 760)
 	(text "DisplayLines" (rect 5 0 68 12)(font "Arial" ))
 	(text "inst10" (rect 8 96 37 108)(font "Arial" ))
@@ -1080,13 +831,164 @@ https://fpgasoftware.intel.com/eula.
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
 		"UPPER_LIMIT"
-		"0011001000"
+		"0000000001"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(drawing
 		(rectangle (rect 16 16 216 96))
 	)
 	(annotation_block (parameter)(rect 1600 584 1840 648))
+)
+(symbol
+	(rect 1112 384 1264 464)
+	(text "H_Sync" (rect 5 0 45 12)(font "Arial" ))
+	(text "inst6" (rect 8 64 31 76)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 27 35 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "data[9..0]" (rect 0 0 47 12)(font "Arial" ))
+		(text "data[9..0]" (rect 21 43 68 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "out" (rect 0 0 15 12)(font "Arial" ))
+		(text "out" (rect 119 27 131 39)(font "Arial" ))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(parameter
+		"LOWER_LIMIT"
+		"0000000000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"UPPER_LIMIT"
+		"0001011111"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(drawing
+		(rectangle (rect 16 16 136 64))
+	)
+	(annotation_block (parameter)(rect 1264 320 1504 384))
+)
+(symbol
+	(rect 1112 224 1264 304)
+	(text "V_Sync" (rect 5 0 43 12)(font "Arial" ))
+	(text "inst5" (rect 8 64 31 76)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 27 35 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "data[9..0]" (rect 0 0 47 12)(font "Arial" ))
+		(text "data[9..0]" (rect 21 43 68 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "out" (rect 0 0 15 12)(font "Arial" ))
+		(text "out" (rect 119 27 131 39)(font "Arial" ))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(parameter
+		"LOWER_LIMIT"
+		"0000000000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"UPPER_LIMIT"
+		"0000000001"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(drawing
+		(rectangle (rect 16 16 136 64))
+	)
+	(annotation_block (parameter)(rect 1264 160 1504 224))
+)
+(symbol
+	(rect 1096 520 1280 632)
+	(text "Display_Ready" (rect 5 0 81 12)(font "Arial" ))
+	(text "inst7" (rect 8 96 31 108)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 27 35 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "data1[9..0]" (rect 0 0 53 12)(font "Arial" ))
+		(text "data1[9..0]" (rect 21 43 74 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "data2[9..0]" (rect 0 0 53 12)(font "Arial" ))
+		(text "data2[9..0]" (rect 21 59 74 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 184 32)
+		(output)
+		(text "posx[9..0]" (rect 0 0 49 12)(font "Arial" ))
+		(text "posx[9..0]" (rect 122 27 163 39)(font "Arial" ))
+		(line (pt 184 32)(pt 168 32)(line_width 3))
+	)
+	(port
+		(pt 184 48)
+		(output)
+		(text "posy[9..0]" (rect 0 0 50 12)(font "Arial" ))
+		(text "posy[9..0]" (rect 121 43 163 55)(font "Arial" ))
+		(line (pt 184 48)(pt 168 48)(line_width 3))
+	)
+	(port
+		(pt 184 64)
+		(output)
+		(text "ready" (rect 0 0 28 12)(font "Arial" ))
+		(text "ready" (rect 140 59 163 71)(font "Arial" ))
+		(line (pt 184 64)(pt 168 64))
+	)
+	(parameter
+		"LOWER_LIMIT1"
+		"0010001111"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"UPPER_LIMIT1"
+		"1100001110"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"LOWER_LIMIT2"
+		"0000100011"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"UPPER_LIMIT2"
+		"1000000010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(drawing
+		(rectangle (rect 16 16 168 96))
+	)
+	(annotation_block (parameter)(rect 1280 424 1528 520))
 )
 (connector
 	(pt 800 136)
@@ -1147,68 +1049,12 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1056 136)
 )
 (connector
-	(pt 1056 136)
-	(pt 2144 136)
-)
-(connector
-	(pt 2312 136)
-	(pt 2368 136)
-)
-(connector
-	(pt 2312 152)
-	(pt 2368 152)
-)
-(connector
 	(pt 536 456)
 	(pt 968 456)
 )
 (connector
 	(pt 536 304)
 	(pt 536 456)
-)
-(connector
-	(pt 1032 640)
-	(pt 1112 640)
-	(bus)
-)
-(connector
-	(pt 992 432)
-	(pt 992 624)
-	(bus)
-)
-(connector
-	(pt 992 624)
-	(pt 1112 624)
-	(bus)
-)
-(connector
-	(pt 1032 272)
-	(pt 1032 640)
-	(bus)
-)
-(connector
-	(pt 968 608)
-	(pt 1112 608)
-)
-(connector
-	(pt 800 432)
-	(pt 992 432)
-	(bus)
-)
-(connector
-	(pt 992 432)
-	(pt 1112 432)
-	(bus)
-)
-(connector
-	(pt 1016 272)
-	(pt 1032 272)
-	(bus)
-)
-(connector
-	(pt 1032 272)
-	(pt 1112 272)
-	(bus)
 )
 (connector
 	(pt 496 136)
@@ -1221,19 +1067,6 @@ https://fpgasoftware.intel.com/eula.
 (connector
 	(pt 200 136)
 	(pt 240 136)
-)
-(connector
-	(pt 968 456)
-	(pt 968 608)
-)
-(connector
-	(pt 968 608)
-	(pt 968 792)
-)
-(connector
-	(pt 1296 608)
-	(pt 1336 608)
-	(bus)
 )
 (connector
 	(pt 1304 680)
@@ -1252,22 +1085,9 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1368 792)
 )
 (connector
-	(pt 1336 608)
-	(pt 1336 712)
-	(bus)
-)
-(connector
 	(pt 1336 712)
 	(pt 1368 712)
 	(bus)
-)
-(connector
-	(pt 1296 640)
-	(pt 1352 640)
-)
-(connector
-	(pt 1352 640)
-	(pt 1352 696)
 )
 (connector
 	(pt 1368 696)
@@ -1303,12 +1123,81 @@ https://fpgasoftware.intel.com/eula.
 	(pt 2120 696)
 	(bus)
 )
+(connector
+	(pt 1032 584)
+	(pt 1096 584)
+	(bus)
+)
+(connector
+	(pt 992 432)
+	(pt 992 568)
+	(bus)
+)
+(connector
+	(pt 992 568)
+	(pt 1096 568)
+	(bus)
+)
+(connector
+	(pt 1032 272)
+	(pt 1032 584)
+	(bus)
+)
+(connector
+	(pt 968 552)
+	(pt 1096 552)
+)
+(connector
+	(pt 1336 552)
+	(pt 1280 552)
+	(bus)
+)
+(connector
+	(pt 1336 712)
+	(pt 1336 552)
+	(bus)
+)
+(connector
+	(pt 1352 696)
+	(pt 1352 584)
+)
+(connector
+	(pt 1352 584)
+	(pt 1280 584)
+)
+(connector
+	(pt 800 432)
+	(pt 992 432)
+	(bus)
+)
+(connector
+	(pt 992 432)
+	(pt 1112 432)
+	(bus)
+)
+(connector
+	(pt 1016 272)
+	(pt 1032 272)
+	(bus)
+)
+(connector
+	(pt 1032 272)
+	(pt 1112 272)
+	(bus)
+)
+(connector
+	(pt 968 456)
+	(pt 968 552)
+)
+(connector
+	(pt 968 552)
+	(pt 968 792)
+)
 (junction (pt 800 136))
 (junction (pt 536 136))
-(junction (pt 1056 136))
 (junction (pt 1056 256))
 (junction (pt 536 304))
 (junction (pt 992 432))
 (junction (pt 1032 272))
-(junction (pt 968 608))
 (junction (pt 1304 792))
+(junction (pt 968 552))

@@ -7,28 +7,35 @@ module Display_Ready (
     output reg ready
 );
 
-// Define parameters for the ranges
-parameter LOWER_LIMIT1 = 10'd144;
-parameter UPPER_LIMIT1 = 10'd784;
+// Define parameters for the ranges - stinky hack values because horizontal is on the clock, they are +1 or -1 wanted value, make assign at current clock later by using a fster clock
+parameter LOWER_LIMIT1 = 10'd143;
+parameter UPPER_LIMIT1 = 10'd782;
 parameter LOWER_LIMIT2 = 10'd35;
-parameter UPPER_LIMIT2 = 10'd515;
+parameter UPPER_LIMIT2 = 10'd514;
 
+reg line;
 
 // Register range detection logic
 always @(posedge clk) begin
     // Check if data1 is within range
-    if (data1 >= LOWER_LIMIT1 && data1 <= UPPER_LIMIT1) begin
+    if (data1 > LOWER_LIMIT1 && data1 <= UPPER_LIMIT1) begin
 			posx <= posx + 1;
+			line <= 1;
     end else begin
 			posx <= 10'd0;
+			
+			if(line == 1) begin
+				if (data2 >= LOWER_LIMIT2 && data2 <= UPPER_LIMIT2) begin
+						posy <= posy + 1;
+						line <= 0;
+				end else begin
+						posy <= 10'd0;
+						line <= 0;
+					
+				end
+			end
 	 end
 	 
-    // Check if data2 is within range
-    if (data2 >= LOWER_LIMIT2 && data2 <= UPPER_LIMIT2) begin
-			posy <= posy + 1;
-    end else begin
-			posy <= 10'd0;
-	 end
 end
 
 

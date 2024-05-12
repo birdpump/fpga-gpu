@@ -6,10 +6,10 @@ module H_Sync (
 
 // Define parameter for the range
 parameter LOWER_LIMIT = 10'd0;
-parameter UPPER_LIMIT = 10'd96;
+parameter UPPER_LIMIT = 10'd95;
 
-// Register range detection logic
-always @(posedge clk) begin
+// seems like a stinky hack, figure out how to set value on 
+always @(clk) begin
     if (data >= LOWER_LIMIT && data <= UPPER_LIMIT)
         out <= 1'b1;
     else

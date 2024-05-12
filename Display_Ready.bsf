@@ -68,12 +68,12 @@ https://fpgasoftware.intel.com/eula.
 	)
 	(parameter
 		"LOWER_LIMIT1"
-		"0010010000"
+		"0010001111"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
 		"UPPER_LIMIT1"
-		"1100010000"
+		"1100001110"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
@@ -83,7 +83,7 @@ https://fpgasoftware.intel.com/eula.
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
 		"UPPER_LIMIT2"
-		"1000000011"
+		"1000000010"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(drawing
