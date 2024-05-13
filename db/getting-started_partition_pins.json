@@ -12,15 +12,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "VGA_R2",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_R3",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_R4",
+					"name" : "VGA_R1",
 					"strict" : false
 				},
 				{
@@ -28,7 +20,47 @@
 					"strict" : false
 				},
 				{
-					"name" : "VGA_R7",
+					"name" : "VGA_G0",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G3",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G5",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G6",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G7",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B0",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B2",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B4",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B5",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B6",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B7",
 					"strict" : false
 				},
 				{
