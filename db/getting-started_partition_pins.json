@@ -12,7 +12,27 @@
 					"strict" : false
 				},
 				{
+					"name" : "VGA_R0",
+					"strict" : false
+				},
+				{
 					"name" : "VGA_R1",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R2",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R3",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R4",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R5",
 					"strict" : false
 				},
 				{
@@ -20,63 +40,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "VGA_G0",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_G3",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_G5",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_G6",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_G7",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B0",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B2",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B4",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B5",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B6",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B7",
-					"strict" : false
-				},
-				{
-					"name" : "altera_reserved_tms",
-					"strict" : false
-				},
-				{
-					"name" : "altera_reserved_tck",
-					"strict" : false
-				},
-				{
-					"name" : "altera_reserved_tdi",
-					"strict" : false
-				},
-				{
-					"name" : "altera_reserved_tdo",
+					"name" : "VGA_R7",
 					"strict" : false
 				}
 			]
