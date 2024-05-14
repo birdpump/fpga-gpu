@@ -1,0 +1,14 @@
+module ColorScaler (
+    input wire [3:0] reg_r,
+    input wire [3:0] reg_g,
+    input wire [3:0] reg_b,
+    output wire [7:0] vga_r,
+    output wire [7:0] vga_g,
+    output wire [7:0] vga_b
+);
+
+assign vga_r = {reg_r, reg_r};
+assign vga_g = {reg_g, reg_g};
+assign vga_b = {reg_b, reg_b};
+
+endmodule

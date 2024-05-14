@@ -1,15 +1,15 @@
-Analysis & Synthesis Status : Successful - Sun May 12 23:16:03 2024
+Analysis & Synthesis Status : Successful - Mon May 13 23:03:49 2024
 Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 Revision Name : getting-started
 Top-level Entity Name : getting-started
 Family : Cyclone IV GX
-Total logic elements : 380
-    Total combinational functions : 380
-    Dedicated logic registers : 42
-Total registers : 42
+Total logic elements : 1,169
+    Total combinational functions : 1,157
+    Dedicated logic registers : 174
+Total registers : 174
 Total pins : 28
 Total virtual pins : 0
-Total memory bits : 0
+Total memory bits : 5,529,600
 Embedded Multiplier 9-bit elements : 0
 Total GXB Receiver Channel PCS : 0
 Total GXB Receiver Channel PMA : 0

@@ -3,11 +3,35 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 100C Model Setup 'inst2|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 35.281
+Slack : -10.186
+TNS   : -13332.746
+
+Type  : Slow 1200mV 100C Model Setup 'BouncingBall:inst|cnt[18]'
+Slack : -5.365
+TNS   : -168.098
+
+Type  : Slow 1200mV 100C Model Setup 'BouncingBall:inst|swap'
+Slack : -4.889
+TNS   : -28.783
+
+Type  : Slow 1200mV 100C Model Hold 'BouncingBall:inst|cnt[18]'
+Slack : 0.379
 TNS   : 0.000
 
 Type  : Slow 1200mV 100C Model Hold 'inst2|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.460
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Hold 'BouncingBall:inst|swap'
+Slack : 2.467
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'BouncingBall:inst|cnt[18]'
+Slack : -1.500
+TNS   : -99.000
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'BouncingBall:inst|swap'
+Slack : 0.381
 TNS   : 0.000
 
 Type  : Slow 1200mV 100C Model Minimum Pulse Width 'clk-two'
@@ -19,11 +43,35 @@ Slack : 19.484
 TNS   : 0.000
 
 Type  : Slow 1200mV -40C Model Setup 'inst2|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 35.790
-TNS   : 0.000
+Slack : -8.695
+TNS   : -11541.983
+
+Type  : Slow 1200mV -40C Model Setup 'BouncingBall:inst|swap'
+Slack : -4.936
+TNS   : -28.422
+
+Type  : Slow 1200mV -40C Model Setup 'BouncingBall:inst|cnt[18]'
+Slack : -4.665
+TNS   : -133.720
 
 Type  : Slow 1200mV -40C Model Hold 'inst2|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.400
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'BouncingBall:inst|cnt[18]'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'BouncingBall:inst|swap'
+Slack : 2.368
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'BouncingBall:inst|cnt[18]'
+Slack : -1.500
+TNS   : -99.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'BouncingBall:inst|swap'
+Slack : 0.292
 TNS   : 0.000
 
 Type  : Slow 1200mV -40C Model Minimum Pulse Width 'clk-two'
@@ -31,15 +79,39 @@ Slack : 9.910
 TNS   : 0.000
 
 Type  : Slow 1200mV -40C Model Minimum Pulse Width 'inst2|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 19.492
+Slack : 19.491
 TNS   : 0.000
 
 Type  : Fast 1200mV -40C Model Setup 'inst2|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 37.667
+Slack : -4.929
+TNS   : -6941.330
+
+Type  : Fast 1200mV -40C Model Setup 'BouncingBall:inst|swap'
+Slack : -2.639
+TNS   : -15.258
+
+Type  : Fast 1200mV -40C Model Setup 'BouncingBall:inst|cnt[18]'
+Slack : -2.063
+TNS   : -45.807
+
+Type  : Fast 1200mV -40C Model Hold 'BouncingBall:inst|cnt[18]'
+Slack : 0.160
 TNS   : 0.000
 
 Type  : Fast 1200mV -40C Model Hold 'inst2|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.203
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'BouncingBall:inst|swap'
+Slack : 0.933
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'BouncingBall:inst|cnt[18]'
+Slack : -1.000
+TNS   : -66.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'BouncingBall:inst|swap'
+Slack : 0.348
 TNS   : 0.000
 
 Type  : Fast 1200mV -40C Model Minimum Pulse Width 'clk-two'
@@ -47,7 +119,7 @@ Slack : 9.627
 TNS   : 0.000
 
 Type  : Fast 1200mV -40C Model Minimum Pulse Width 'inst2|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 19.600
+Slack : 19.595
 TNS   : 0.000
 
 ------------------------------------------------------------

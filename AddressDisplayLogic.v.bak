@@ -1,0 +1,31 @@
+module AddressDisplayLogic(
+    input wire [9:0] posx,
+    input wire [9:0] posy,
+    output reg [18:0] address,
+	 
+	 input wire draw,
+	 input wire [23:0] data,
+	 output reg [7:0] output_r,
+    output reg [7:0] output_g,
+    output reg [7:0] output_b
+);
+
+always @* begin
+    address = (posx * 640) + posy;
+end
+
+always @* begin
+    if (draw) begin
+        // Output pixel color at specified coordinates
+        output_r = data[23:16];
+        output_g = data[15:8];
+        output_b = data[7:0];
+    end else begin
+        // Output black if draw signal is low
+        output_r = 8'b00000000;
+        output_g = 8'b00000000;
+        output_b = 8'b00000000;
+    end
+end
+
+endmodule

@@ -1,5 +1,5 @@
 Flow report for getting-started
-Sun May 12 23:16:23 2024
+Mon May 13 23:05:19 2024
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -41,20 +41,20 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Flow Summary                                                                        ;
 +------------------------------------+------------------------------------------------+
-; Flow Status                        ; Successful - Sun May 12 23:16:23 2024          ;
+; Flow Status                        ; Successful - Mon May 13 23:05:19 2024          ;
 ; Quartus Prime Version              ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                      ; getting-started                                ;
 ; Top-level Entity Name              ; getting-started                                ;
 ; Family                             ; Cyclone IV GX                                  ;
 ; Device                             ; EP4CGX150DF31I7                                ;
 ; Timing Models                      ; Final                                          ;
-; Total logic elements               ; 380 / 149,760 ( < 1 % )                        ;
-;     Total combinational functions  ; 380 / 149,760 ( < 1 % )                        ;
-;     Dedicated logic registers      ; 42 / 149,760 ( < 1 % )                         ;
-; Total registers                    ; 42                                             ;
+; Total logic elements               ; 1,174 / 149,760 ( < 1 % )                      ;
+;     Total combinational functions  ; 1,157 / 149,760 ( < 1 % )                      ;
+;     Dedicated logic registers      ; 174 / 149,760 ( < 1 % )                        ;
+; Total registers                    ; 174                                            ;
 ; Total pins                         ; 28 / 508 ( 6 % )                               ;
 ; Total virtual pins                 ; 0                                              ;
-; Total memory bits                  ; 0 / 6,635,520 ( 0 % )                          ;
+; Total memory bits                  ; 5,529,600 / 6,635,520 ( 83 % )                 ;
 ; Embedded Multiplier 9-bit elements ; 0 / 720 ( 0 % )                                ;
 ; Total GXB Receiver Channel PCS     ; 0 / 8 ( 0 % )                                  ;
 ; Total GXB Receiver Channel PMA     ; 0 / 8 ( 0 % )                                  ;
@@ -69,43 +69,55 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/12/2024 23:14:21 ;
+; Start date & time ; 05/13/2024 23:03:36 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; getting-started     ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                               ;
-+-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
-+-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 10995770589206.171558086120648         ; --            ; --          ; --                                ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_symbol           ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation                    ;
-; EDA_SIMULATION_TOOL                 ; Questa Intel FPGA (Verilog)            ; <None>        ; --          ; --                                ;
-; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation                    ;
-; ENABLE_SIGNALTAP                    ; On                                     ; --            ; --          ; --                                ;
-; MAX_CORE_JUNCTION_TEMP              ; 100                                    ; --            ; --          ; --                                ;
-; MIN_CORE_JUNCTION_TEMP              ; -40                                    ; --            ; --          ; --                                ;
-; MISC_FILE                           ; pll.bsf                                ; --            ; --          ; --                                ;
-; MISC_FILE                           ; pll_bb.v                               ; --            ; --          ; --                                ;
-; MISC_FILE                           ; pll.ppf                                ; --            ; --          ; --                                ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --          ; --                                ;
-; NUM_PARALLEL_PROCESSORS             ; 16                                     ; --            ; --          ; --                                ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --          ; --                                ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --                                ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --                                ;
-; SLD_FILE                            ; db/stp2_auto_stripped.stp              ; --            ; --          ; --                                ;
-; SMART_RECOMPILE                     ; On                                     ; Off           ; --          ; --                                ;
-; USE_SIGNALTAP_FILE                  ; stp2.stp                               ; --            ; --          ; --                                ;
-+-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                         ;
++-----------------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
+; Assignment Name                               ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
++-----------------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
+; ALLOW_ANY_SHIFT_REGISTER_SIZE_FOR_RECOGNITION ; On                                     ; Off           ; --          ; --                                ;
+; AUTO_RAM_TO_LCELL_CONVERSION                  ; On                                     ; Off           ; --          ; --                                ;
+; AUTO_SHIFT_REGISTER_RECOGNITION               ; Always                                 ; Auto          ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                         ; 10995770589206.171566661602124         ; --            ; --          ; --                                ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST               ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST               ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST               ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST               ; Off                                    ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_OUTPUT_DATA_FORMAT                        ; Verilog Hdl                            ; --            ; --          ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                           ; Questa Intel FPGA (Verilog)            ; <None>        ; --          ; --                                ;
+; EDA_TIME_SCALE                                ; 1 ps                                   ; --            ; --          ; eda_simulation                    ;
+; ENABLE_SIGNALTAP                              ; On                                     ; --            ; --          ; --                                ;
+; FITTER_EFFORT                                 ; Standard Fit                           ; Auto Fit      ; --          ; --                                ;
+; MAX_CORE_JUNCTION_TEMP                        ; 100                                    ; --            ; --          ; --                                ;
+; MIN_CORE_JUNCTION_TEMP                        ; -40                                    ; --            ; --          ; --                                ;
+; MISC_FILE                                     ; pll.bsf                                ; --            ; --          ; --                                ;
+; MISC_FILE                                     ; pll_bb.v                               ; --            ; --          ; --                                ;
+; MISC_FILE                                     ; pll.ppf                                ; --            ; --          ; --                                ;
+; MISC_FILE                                     ; bram2.bsf                              ; --            ; --          ; --                                ;
+; MISC_FILE                                     ; bram2_bb.v                             ; --            ; --          ; --                                ;
+; MUX_RESTRUCTURE                               ; Off                                    ; Auto          ; --          ; --                                ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE                   ; 1.2V                                   ; --            ; --          ; --                                ;
+; NUM_PARALLEL_PROCESSORS                       ; All                                    ; --            ; --          ; --                                ;
+; OPTIMIZATION_MODE                             ; Aggressive Performance                 ; Balanced      ; --          ; --                                ;
+; PARTITION_COLOR                               ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL           ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
+; PARTITION_NETLIST_TYPE                        ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
+; PHYSICAL_SYNTHESIS_COMBO_LOGIC                ; On                                     ; Off           ; --          ; --                                ;
+; PHYSICAL_SYNTHESIS_REGISTER_RETIMING          ; On                                     ; Off           ; --          ; --                                ;
+; PLACEMENT_EFFORT_MULTIPLIER                   ; 4.0                                    ; 1.0           ; --          ; --                                ;
+; POWER_BOARD_THERMAL_MODEL                     ; None (CONSERVATIVE)                    ; --            ; --          ; --                                ;
+; POWER_PRESET_COOLING_SOLUTION                 ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --                                ;
+; PROJECT_OUTPUT_DIRECTORY                      ; output_files                           ; --            ; --          ; --                                ;
+; ROUTER_TIMING_OPTIMIZATION_LEVEL              ; MAXIMUM                                ; Normal        ; --          ; --                                ;
+; SLD_FILE                                      ; db/stp2_auto_stripped.stp              ; --            ; --          ; --                                ;
+; SMART_RECOMPILE                               ; On                                     ; Off           ; --          ; --                                ;
+; USE_SIGNALTAP_FILE                            ; stp2.stp                               ; --            ; --          ; --                                ;
++-----------------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -113,12 +125,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:01:41     ; 1.0                     ; 7080 MB             ; 00:01:43                           ;
-; Fitter               ; 00:00:11     ; 1.0                     ; 6855 MB             ; 00:00:14                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 4790 MB             ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:02     ; 1.1                     ; 5096 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4734 MB             ; 00:00:00                           ;
-; Total                ; 00:01:57     ; --                      ; --                  ; 00:02:01                           ;
+; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 5098 MB             ; 00:00:18                           ;
+; Fitter               ; 00:01:18     ; 1.1                     ; 6210 MB             ; 00:00:47                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 4833 MB             ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.6                     ; 5046 MB             ; 00:00:03                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4751 MB             ; 00:00:01                           ;
+; Total                ; 00:01:39     ; --                      ; --                  ; 00:01:12                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -1,0 +1,33 @@
+module TestBufferFrame (
+    input wire clk,
+    output wire wen,
+    
+	 output wire [11:0] data,
+    input wire [9:0] position_x,
+    input wire [9:0] position_y,
+
+);
+
+reg [18:0] address;
+
+always @* begin
+    address = (position_x * 640) + position_y;
+end
+
+
+// Write to frame buffer
+//integer i;
+always @(posedge clk) begin
+
+	if(position_x < 100) begin
+		wen <= 1'b1;
+		data <= {4'b1111, 4'b0000, 4'b0000};
+	end else
+		wen <= 1'b0;
+		data <= {4'b0000, 4'b0000, 4'b0000};
+		
+	end
+end
+
+
+endmodule

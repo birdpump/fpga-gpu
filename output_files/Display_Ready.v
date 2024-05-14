@@ -7,7 +7,7 @@ module Display_Ready (
     output reg ready
 );
 
-// Define parameters for the ranges - stinky hack values because horizontal is on the clock, they are +1 or -1 wanted value, make assign at current clock later by using a fster clock
+// Define parameters for the ranges - stinky hack values because horizontal is on the clock, they are +1 or -1 wanted value, make assign at current clock later by using a faster clock
 parameter LOWER_LIMIT1 = 10'd143;
 parameter UPPER_LIMIT1 = 10'd782;
 parameter LOWER_LIMIT2 = 10'd35;

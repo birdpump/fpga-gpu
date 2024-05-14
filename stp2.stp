@@ -5,14 +5,14 @@
     <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
     <position_info>
       <single attribute="active tab" value="1"/>
-      <single attribute="data horizontal scroll position" value="24929"/>
+      <single attribute="data horizontal scroll position" value="0"/>
       <single attribute="data vertical scroll position" value="0"/>
       <single attribute="setup horizontal scroll position" value="0"/>
       <single attribute="setup vertical scroll position" value="0"/>
-      <single attribute="zoom level denominator" value="512"/>
+      <single attribute="zoom level denominator" value="2"/>
       <single attribute="zoom level numerator" value="1"/>
       <single attribute="zoom offset denominator" value="1"/>
-      <single attribute="zoom offset numerator" value="67043328"/>
+      <single attribute="zoom offset numerator" value="229376"/>
     </position_info>
   </instance>
   <mnemonics/>
@@ -29,5 +29,6 @@
     <single attribute="sof manager visible" value="1"/>
     <multi attribute="frame size" size="2" value="1920,1009"/>
     <multi attribute="jtag widget size" size="2" value="325,205"/>
+    <multi attribute="column width" size="23" value="34,34,220,74,68,818,95,96,98,98,88,88,110,101,101,101,101,101,101,101,101,107,78"/>
   </global_info>
 </session>
